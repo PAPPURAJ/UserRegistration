@@ -18,17 +18,22 @@
                 <a class="nav-link" href="#">Existing User</a>
             </li>
         </ul>
+   
     </nav>
+    
+    
+    
+    
     <div class="container">
         <h1>Verify Email with CAPTCHA Generator</h1>
-        <form action="verification.jsp" method="post">
+        <form action="submitpage2" method="post">
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email" name="email" required>
             </div>
             <div class="form-group">
                 <label for="captcha">CAPTCHA:</label>
-                <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+                <div class="g-recaptcha" data-sitekey="6Lde4dcmAAAAAJ5fnOJdv0sWH-XNhA8jCKCbjymM"></div>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>

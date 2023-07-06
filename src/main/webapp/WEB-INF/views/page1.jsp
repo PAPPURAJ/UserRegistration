@@ -1,10 +1,8 @@
 <html>
 <body>
-<h2>Hello Worldfd!</h2>
-
-<%
-
-	for(int i=0;i<1000;i++)out.println(i+" ");
-%>
+    <h1>Welcome to our project</h1>
+    <form action="page1BtnClick" method="post">
+        <input type="submit" name="submitButton" value="Start the project">
+    </form>
 </body>
 </html>
